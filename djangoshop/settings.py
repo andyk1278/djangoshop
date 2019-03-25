@@ -122,6 +122,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+CART_SESSION_ID = 'cart'
+
 # MEDIA_URL is the base URL that serves media files uploaded by users,
 # it is the local path where these files reside
 MEDIA_URL = '/media/'
