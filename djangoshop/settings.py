@@ -139,9 +139,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-BRAINTREE_MERCHANT_ID = 'XXX'
-BRAINTREE_PUBLIC_KEY = 'XXX'
-BRAINTREE_PRIVATE_KEY = 'XXX'
+BRAINTREE_MERCHANT_ID = 'jg8ydnjyyyp79h3r'
+BRAINTREE_PUBLIC_KEY = 'gpc7xkjp3xkfppq8'
+BRAINTREE_PRIVATE_KEY = '6af37dd303f28396748ba264f8bb2eb2'
 
 from braintree import Configuration, Environment
 
